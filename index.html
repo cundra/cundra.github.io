@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Saya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container nav-container">
+        <a href="#" class="logo">Portofolio</a>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>
+          Hai, Saya
+          <span style="color: var(--primary-color)">Candra Nur Aini</span>
+        </h1>
+        <p>
+          Saya seorang mahasiswa Pendidikan Sosiologi dari Universitas Negeri
+          Yogyakarta yang passionate dengan UI/UX Designer dan Frontend
+          Developer.
+        </p>
+        <div>
+          <a href="#portfolio" class="btn">Lihat Karya</a>
+          <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>Tentang Saya</h2>
+          <p>
+            Mari kenali lebih dalam tentang saya, keterampilan apa saja yang
+            saya bisa, dan bahasa pemrograman apa saja yang saya kuasai
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Web Developer & Designer</h3>
+            <p>
+              Saya seorang frontend developer dengan pengalaman 3+ tahun dalam
+              menciptakan website yang responsive dan user-friendly. Saya
+              memiliki passion dalam menciptakan solusi digital yang tidak hanya
+              bagus secara visual tetapi juga memberikan pengalaman pengguna
+              yang memberikan kesan.
+            </p>
+            <p>
+              Saya berspesialisasi dalam HTML, CSS, JavaScript, dan berbagai
+              framework modern. Saya selalu tertarik untuk mempelajari teknologi
+              terbaru dan mengasah keterampilan saya.
+            </p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+          </div>
+          <div class="skills">
+            <div class="skill">
+              <div class="skill-name">
+                <span>HTML/CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">
+                <span>UI/UX Design</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">
+                <span>React</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portfolio Saya</h2>
+          <p>Beberapa project terbaru yang telah saya kerjakan</p>
+        </div>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="design">UI/UX Design</button>
+          <button class="filter-btn" data-filter="app">Aplikasi</button>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/755c5eec-136f-428f-b3cd-aec1a3f37446.png"
+                alt="Tampilan website e-commerce modern dengan desain yang bersih dan profesional"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>E-commerce Website</h3>
+              <p>
+                Website e-commerce lengkap dengan fitur keranjang, checkout, dan
+                sistem pembayaran.
+              </p>
+              <div class="portfolio-tags">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bcf5f6cf-954e-4e08-a5b3-7677cafb43d2.png"
+                alt="Desain antarmuka aplikasi mobile dengan tata letak yang intuitif dan warna yang menarik"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>Mobile App UI Design</h3>
+              <p>
+                Desain UI/UX untuk aplikasi mobile dengan fokus pada pengalaman
+                pengguna.
+              </p>
+              <div class="portfolio-tags">
+                <span>Figma</span>
+                <span>UI Design</span>
+                <span>UX Research</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/518a22ae-019a-43f9-abad-9a4aa7402851.png"
+                alt="Tampilan dashboard aplikasi manajemen proyek dengan grafik dan metric"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>Project Management App</h3>
+              <p>
+                Aplikasi manajemen proyek dengan fitur kolaborasi tim dan
+                pelacakan progress.
+              </p>
+              <div class="portfolio-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a18eec63-cbcc-4277-aef3-e52b51936676.png"
+                alt="Website portofolio artist dengan galeri karya yang menampilkan gambar dan video"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>Portfolio Website</h3>
+              <p>
+                Website portfolio untuk seniman dengan galeri karya dan sistem
+                manajemen konten.
+              </p>
+              <div class="portfolio-tags">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="design">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1df1ac66-b4c0-4f95-9a5c-060bd75c7fd2.png"
+                alt="Desain website perusahaan dengan tampilan modern dan profesional menggunakan skema warna biru"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>Bimbingan Belajar Website Redesign</h3>
+              <p>
+                Redesign website perusahaan dengan pendekatan modern dan
+                responsive.
+              </p>
+              <div class="portfolio-tags">
+                <span>UI Design</span>
+                <span>Wordpress</span>
+                <span>Responsive</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="app">
+            <div class="portfolio-img">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/49ffe73b-7fcf-4874-8947-bd8a8a755093.png"
+                alt="Antarmuka aplikasi fitness dengan tracking progress dan rencana latihan"
+              />
+            </div>
+            <div class="portfolio-info">
+              <h3>Habit Tracker App</h3>
+              <p>
+                Aplikasi pelacak kebugaran dengan fitur pemantauan progress dan
+                rencana latihan.
+              </p>
+              <div class="portfolio-tags">
+                <span>Dart</span>
+                <span>C++</span>
+                <span>HTML</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hubungi Saya</h2>
+          <p>Jangan ragu untuk menghubungi saya kapan saja</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Lokasi</h4>
+                <p>Daerah Istimewa Yogyakarta, Indonesia</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>candrana281@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Telepon</h4>
+                <p>+62 8213 6979 281</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nama Lengkap"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subjek" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Pesan Anda"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3>Tentang Saya</h3>
+            <p>
+              Web Developer dan Designer yang passionate dalam menciptakan
+              pengalaman digital yang menarik dan fungsional.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Link Cepat</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Tentang</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Layanan</h3>
+            <ul class="footer-links">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Aplikasi Mobile</a></li>
+              <li><a href="#">SEO Optimization</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2025 Portfolio Candra Nur Aini</p>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
